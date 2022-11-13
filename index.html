@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment calculator</title>
+    <link rel="stylesheet" href="test 6 css.css">
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2016/07/29/21/42/school-1555910_960_720.png">
+</head>
+<body>
+    <fieldset>
+        <legend>Investment calculator</legend>
+       
+            <label for="capital">Capital: </label>
+            <input type="number" id="capital" placeholder="Your capital" min="0" required>
+            <br>
+            <label for="years">Years: </label>
+            <input type="number" id="years" placeholder="Time in years" min="0" required>
+            <br>
+            <label for="percentage">Yearly %</label>
+            <input type="number" id="percentage" placeholder="Percentage" min="0" required>
+            <br>
+            <label for="result">Result: </label>
+            <input type="number" id="result" disabled placeholder="Your wallet">
+            <br>
+            <button type="submit" id="submit">Submit</button>
+            <button type="reset" id="reset">Reset</button>
+        
+    </fieldset>
+
+    <script src="script.js"></script>
+</body>
+</html>

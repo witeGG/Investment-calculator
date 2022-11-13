@@ -1,0 +1,67 @@
+input {
+    margin: 5px;
+}
+input {
+    background-color: rgb(245, 245, 245);
+    font-weight: 800;
+    border-radius: 5px;
+}
+input:hover {
+    transform: scale(1.01);
+    transition: all 100ms;
+    background-color: rgb(255, 255, 255);;
+}
+input:focus {
+    transform: scale(1.02);
+    transition: all 100ms;
+}
+label {
+    color: white;
+    font-weight: 600;
+    padding: 4px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+legend {
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 600;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    padding: 2px;
+}
+fieldset {
+    text-align: center;
+    background-image: url("https://cdn.pixabay.com/photo/2014/07/06/13/55/calculator-385506_960_720.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+button[type="submit"] {
+    padding: 5px;
+    font-weight: 600;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+button[type="submit"]:hover {
+    background-color: lightgreen;
+    transition: 100ms;
+}
+button[type="reset"] {
+    padding: 5px;
+    font-weight: 600;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+button[type="reset"]:hover {
+    background-color: rgb(255, 255, 155);
+    transition: 100ms;
+}
+button[type="submit"]:active {
+    transform: scale(0.98);
+}
+button[type="reset"]:active {
+    transform: scale(0.98);
+}
